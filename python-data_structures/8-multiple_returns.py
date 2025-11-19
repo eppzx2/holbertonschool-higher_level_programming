@@ -5,4 +5,3 @@ def multiple_returns(sentence):
     else:
         frst = sentence[0]
     return (len(sentence), frst)
-
