@@ -4,7 +4,7 @@ empthy class tht defines rec
 """
 
 
-class:
+class Rectangle:
     """rectangle class"""
 
     pass
