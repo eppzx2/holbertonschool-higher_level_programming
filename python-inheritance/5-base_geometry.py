@@ -6,4 +6,4 @@ empty class
 
 class BaseGeometry:
     """base class"""
-    return pass
+    pass
