@@ -50,10 +50,14 @@ class Rectangle:
     def __str__(self):
         if self.width == 0 or self.height == 0:
             return ""
-        return "\n".join(str(self.print_symbol) * self.width for _ in range(self.height))
+        symbol = str(self.print_symbol)
+        lines = []
+        for _ in range(self.height):
+            lines.append(symbol * self.width)
+        return "\n".join(lines)
 
     def __repr__(self):
-        return f"Rectangle({self.width}, {self.height})"
+        return "Rectangle({}, {})".format(self.width, self.height)
 
     def __del__(self):
         print("Bye rectangle...")
