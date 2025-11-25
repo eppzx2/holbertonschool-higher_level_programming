@@ -5,6 +5,8 @@ def square cls size
 
 
 class Rectangle:
+    """last definining reqdanqil qlass"""
+
     number_of_instances = 0
     print_symbol = "#"
 
