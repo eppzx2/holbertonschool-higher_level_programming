@@ -20,7 +20,9 @@ class Student:
 
         if isinstance(attrs, list) and all(isinstance(a, str) for a in attrs):
             return {
-                    key: self.__dict__[key] for key in attrs if key in self.__dict__
+                    key: self.__dict__[key]
+                    for key in attrs
+                    if key in self.__dict__
             }
         return self.__dict__.copy()
 
