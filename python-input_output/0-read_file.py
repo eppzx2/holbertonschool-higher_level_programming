@@ -3,6 +3,7 @@
 fayli acir oxuyur bagliyir
 """
 
+
 def read_file(filename=""):
     """with ozu acir is bitende bagliyir f.close ehtiyac yoxdu"""
 
