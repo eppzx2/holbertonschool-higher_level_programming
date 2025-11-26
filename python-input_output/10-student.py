@@ -3,6 +3,7 @@
 Defines a Student class with json
 """
 
+
 class Student:
     """
     class representing a student.
