@@ -1,3 +1,6 @@
+>>> import sys
+>>> sys.path.insert(0, '/holbertonschool-higher_level_programming/python-inheritance')
+>>> from 7-base_geometry import BaseGeometry
 >>> from your_module_name import BaseGeometry
 >>> BaseGeometry().area()
 Traceback (most recent call last):
