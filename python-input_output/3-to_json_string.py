@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-json representasiyasi ucun bize import qadagasi qoyulmayib ona gore de import edek
+import qadagasi qoyulmayib ona gore de import edek
 """
 
 
