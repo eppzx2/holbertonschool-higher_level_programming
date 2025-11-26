@@ -1,3 +1,4 @@
+>>> from your_module_name import BaseGeometry
 >>> BaseGeometry().area()
 Traceback (most recent call last):
 ...
