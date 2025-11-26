@@ -1,0 +1,6 @@
+echo "message"
+read message
+
+git add .
+git commit -m "$message"
+gir push
