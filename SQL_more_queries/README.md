@@ -1,0 +1,1 @@
+Granting privileges in sql
