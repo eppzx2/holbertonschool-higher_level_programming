@@ -8,9 +8,10 @@ using Basic Authentication (username and token)
 import requests
 import sys
 
-
-username = sys.argv[1]
-token = sys.argv[2]
+#eger if name falan yazmasaag index error verir
+if __name__ == "__main__":
+    username = sys.argv[1]
+    token = sys.argv[2]
 
 url = "https://api.github.com/user"
 
