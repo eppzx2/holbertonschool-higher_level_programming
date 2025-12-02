@@ -1,17 +1,11 @@
 #!/usr/bin/python3
-"""
-It sends a GET request to GitHub's /user API endpoint,
-using Basic Authentication (username and token)
-"""
 
 
 import requests
-import sys
 
-#eger if name falan yazmasaag index error verir
-if __name__ == "__main__":
-    username = sys.argv[1]
-    token = sys.argv[2]
+
+username = "eppzx2"
+token = "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"
 
 url = "https://api.github.com/user"
 
