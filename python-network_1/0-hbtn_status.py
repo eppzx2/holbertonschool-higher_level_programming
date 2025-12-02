@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-fetching an url
+fetching an url, new python experience
 """
 
 
