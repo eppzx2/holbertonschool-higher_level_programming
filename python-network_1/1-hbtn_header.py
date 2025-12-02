@@ -1,13 +1,16 @@
 #!/usr/bin/python3
 """
-Response header value
+Sends a request to a URL and displays the value of the request
 """
 
-
-import urllib.request
 import sys
+import urllib.request
 
 
-url = sys.argv[0]
-with urllib.request.urlopen(url) as response:
-    print(response.headers.get('X-Request-Id'))
+if __name__ == "__main__":
+    url = sys.argv[1]
+
+    with urllib.request.urlopen(url) as response:
+        request_id = response.headers.get("X-Request-Id")
+
+    print(request_id)
