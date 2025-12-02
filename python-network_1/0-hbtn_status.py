@@ -13,4 +13,3 @@ with urllib.request.urlopen('https://intranet.hbtn.io/status') as response:
 print(f"Body response:\n\t- type: {type(body)}")
 print(f"\t- content: {body}")
 print(f"\t- utf8 content: {body.decode('utf-8')}")
-
