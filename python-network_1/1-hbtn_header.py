@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-""" Response header value """
+"""
+Response header value
+"""
 
 
 import urllib.request
